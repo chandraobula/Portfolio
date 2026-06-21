@@ -63,7 +63,7 @@ export default function Projects() {
                 ))}
               </div>
               <p>{project.desc}</p>
-              <a className="btn-outline" href="#contact">
+              <a className="btn-outline" href="/contact">
                 View Project
               </a>
             </div>

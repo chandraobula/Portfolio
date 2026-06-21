@@ -2,6 +2,7 @@
 
 import { MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -36,9 +37,9 @@ export default function Contact() {
           supply chain systems. Ready to work on tools and teams that turn
           operational data into clear decisions.
         </p>
-        <a className="btn-outline" href="mailto:">
-          Email Me
-        </a>
+        <Link className="btn-outline" href="/contact">
+          Get in Touch
+        </Link>
       </motion.div>
     </section>
   );
